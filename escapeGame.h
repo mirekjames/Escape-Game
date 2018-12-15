@@ -1,26 +1,40 @@
 #pragma once
 
 enum shape{
-  triangle,
-  circle,
-  rectangle
+  TRIANGLE,
+  CIRCLE,
+  RECTANGLE
 };
 
 enum pointing{
-  left,
-  right,
-  up,
-  down
+  LEFT,
+  RIGHT,
+  UP,
+  DOWN
 };
 
 enum view{
-  frontWall,
-  rightWall,
-  backWall,
-  leftWall,
+  FRONTWALL,
+  RIGHTWALL,
+  BACKWALL,
+  LEFTWALL,
 };
 
-enum items{
-  key,
-  piranha
+enum item{
+  NONE,
+  KEY,
+  PIRANHA,
+  NET,
+  KEYTWO,
+  KEYTHREE,
+  SCREWDRIVER
+};
+
+enum zoom{
+  NOT,
+  SAFE,
+  PAINTING,
+  WALLCLUE,
+  BARREL,
+  CLOCK,
 };
